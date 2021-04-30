@@ -128,9 +128,154 @@ ul.bottom-banner-ul a {
   display: flex;
   padding-top: 52px;
   padding-left: 64px;
-    padding-right: 
+    padding-right: 69px;
+}
+.banner-image {
+    /* background: url(banner-img.jpg); */
+    height: 501px;
+    width: 96%;
+    padding-left: 48px;
+}
+.left {
+  position: absolute;
+  top: 140px;
+  left: 127px;
+}
+.left h2 {
+    font-size: 24px;
+}
+.left p {
+    font-size: 16px;
+    padding-bottom: 14px;
+}
+.left button{
+  background: black;
+    width: 132px;
+    height: 36px;
+    font-size: 14px;
 }
 
+.business-card{
+  padding-left: 47px;
+  padding-right: 74px;
+
+}
+.business-card p{
+
+font-size: 14px;
+}
+.card{
+  height: 401px;
+  border: none;
+}
+.card-body{
+  margin-left: -12px;
+}
+.card a{
+  font-size: 14px;
+  font-weight: 600;
+  color: darkblue;
+}
+.jumbotron{
+  text-align: center;
+  color: black;
+  background: lightgrey;
+}
+.jumbotron h2{
+  font-size: 34px;
+}
+.jumbotron p{
+  font-size: 17px;
+}
+.jumbotron a{
+  font-size: 16px;
+    color: black;
+}
+.textcenter{
+  padding-left: 60px;
+  padding-right: 67px;
+}
+.advertising-card{
+  height: 400px;
+    margin-bottom: 60px;
+}
+.card-one p { 
+  font-size: 15px;
+}
+
+.card-one h5{
+  font-size: 2.00rem;
+}
+.card-one a{
+  font-size: 15px;
+
+}
+
+.advertising-card div {
+    padding-left: 19px;
+}
+.business-heading{
+  font-size: 2.5rem;
+  padding-bottom: 13px;
+    padding-left: 14px;
+}
+.textcenter h2{
+  margin-top: -19px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa {
+  /* padding: 20px; */
+  /* font-size: 30px; */
+  /* width: 50px; */
+  text-align: center;
+  text-decoration: none;
+  /* margin: 5px 2px; */
+}
+.social{
+  /* padding-left: 73px; */
+    padding-top: 28px;
+    padding-bottom: 37px;
+}
+.space{
+  padding-left: 73px;
+  padding-bottom: 35px;
+
+}
+.social-content a{
+  /* padding: 10px; */
+    font-size: 19px;
+    padding: 5px 10px;
+    margin-left: 13px;
+}
+.footer{
+  height: 400px;
+  background: #DCDCDC;
+}
+.con_one {
+    padding-left: 93px;
+    padding-top: 41px;
+}
+.con_one ul li{
+  list-style: none;
+}
+.con_one ul li a {
+  text-decoration : none;
+}
+.con_one h4{
+  padding-left: 38px;
+}
   /* .carousel-item{
     background-image: ;
   } */
@@ -151,205 +296,426 @@ background-image: url('slider-img2.jpg');
   </style>
 
 </head>
-  <body>
-    <div class="container-fluid">
-      <!-- <div class="row"> -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light padding">
-          <img src="logo.png" alt="">
+<body>
+  <div class="container-fluid">
+    <!-- <div class="row"> -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light padding">
+        <img src="logo.png" alt="">
+      
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Microsoft 365 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Office</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" >
+                Windows
+              </a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="#">Surface</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Xbox</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+          </ul>
+    
+        </div>
+
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            All Microsoft
+          </button>
+    
+        </div>
+        <div class="righticon">
+                  <li class="fa fa-search">
+                    <!-- <i class="fi-magnifying-glass"></i> -->
+                    <!-- <i class="ionicons ion-ios-search"></i> -->
+                    
+                  <!-- </li> -->
+                  <li class="fa fa-cart-plus">
+                    
+                  </li>
+                  <li class="fa fa-user">
+                    
+                  </li>
+        </div>
+
+      </nav>
+    <!-- </div> -->
+
+
+
+      <div class="banner px-2">
+
+            
+            <div class="  mt-3">
+              
+            
+              
+              <!-- The carousel -->
+            <div id="myCarousel" class="carousel slide mt-4" data-interval="500">
+              
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li class="item1 active"></li>
+                <li class="item2"></li>
+                <li class="item3"></li>
+              </ul>
+              
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <img src="slider-img1.jpg" alt="Los Angeles" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                  <img src="slider-img2.jpg" alt="Chicago" width="1100" height="500">
+                </div>
+                <!-- <div class="carousel-item">
+                  <img src="static.jpg" alt="New York" width="1100" height="500">
+                </div> -->
+                
+              </div>
+              <div class="playnpause">
+
+              <button type="button" id="myBtn" class="fa fa-play"></button>
+              <button type="button" id="myBtn2" class="fa fa-pause"></button>
+
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#myCarousel">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+            </div>
+      </div>
+
+      <div class="bottom-banner" >
+              
+        <!-- Indicators -->
+        <ul class="bottom-banner-ul">
+          <a class="one"><img src="small-img1.png" alt=""> <p>Choose your Microsoft 365</p></a>
+          <a class="two"><img src="small-img2.png" alt=""><p>Explore Surface devices</p></a>
+          <a class="three"><img src="small-img4.png" alt=""><p>Buy Xbox games</p></a>
+          <a class="three"><img src="small-img3.png" alt=""><p>Shop for Windows 10</p></a>
+
+        </ul>
+
+      </div>
+
+
+      <div class="advertising-card">
+
+        <div class="card-one">
+          <img src="advertising-card1.jpg" alt="">
+          <h5>Surface Laptop Go</h5>
+          <p>Make the most of every day with the <br> sleek style and performance of our <br> lightest Surface laptop.</p>
+          <a href="">Shop now ></a>
+        </div>
+        <div class="card-one">
+          <img src="advertising-card2.jpg" alt="">
+          <h5>Microsoft 365</h5>
+          <p>Premium Office apps, extra cloud <br> storage, advanced security, and more – <br> all in one convenient subscription.</p>
+          <a href="">For up to 6 people  ></a>
+          <a href="">For 1 person  ></a>
+
+        </div>
+        <div class="card-one">
+          <img src="advertising-card3.jpg" alt="">
+          <h5>Xbox Game Pass Ultimate</h5>
+          <p>Xbox Live Gold and over 100 high-quality <br> console and PC games. Play together <br> with friends and discover your next <br> favourite game.</p>
+          <a href="">Join now ></a>
+        </div>
+        <div class="card-one" style="padding-left:18px;">
+          <img src="advertising-card4.jpg" alt="">
+          <h5>Microsoft Edge</h5>
+          <p>World-class performance with more <br> privacy, more productivity and more <br> value while you browse.</p>
+          <a href="">Download now ></a>
+        </div>
         
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Microsoft 365 <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Office</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" >
-                  Windows
-                </a>
-              </li>
-           
-              <li class="nav-item">
-                <a class="nav-link" href="#">Surface</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Xbox</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Support</a>
-              </li>
-            </ul>
-     
+      </div>
+      <div class="big-image">
+
+            <div class=" col-lg-12 ">
+      
+            
+                <div class="banner-image ">
+            
+                    <img src="banner-img.jpg" class="img-fluid" alt="Responsive image"> 
+
+                  
+                </div>
+                <div  class=" left">
+                  <h2>
+                    Microsoft OneDrive
+                  </h2>
+                  <p>Save your files and photos to OneDrive and access them from any <br> device, anywhere</p>
+                  <button type="button" class="btn btn-dark"><b> Learn More ></b></button>
+                </div>
+          
+            </div>
+
+      </div>
+
+
+       <div class="business-card">
+           <h2 class="business-heading">For Business</h2>
+
+         <div class="row">
+      
+         <div class="col-lg-12">
+           <div class="col-lg-3">
+            <div class="card" style="width: 30rem;">
+              <img class="card-img-top" src="busines-card1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h2>New Surface Laptop 4 for Business</h2>
+                <p class="card-text">Experience improved performance, faster multitasking and longer battery life in a stylish, ultra-thin design.
+                </p>
+                <a href="">Learn More ></a>
+              </div>
+            </div>
+           </div>
+           <div class="col-lg-3">
+            <div class="card" style="width: 30rem;">
+              <img class="card-img-top" src="busines-card2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h2>Microsoft Teams
+                  </h2>
+                <p class="card-text">Chat, meet, call and collaborate.</p>
+                <a href="">Learn More ></a>
+
+              </div>
+            </div>
+           </div>
+           <div class="col-lg-3">
+            <div class="card" style="width: 30rem;">
+              <img class="card-img-top" src="busines-card3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h2>Microsoft 365 for business
+                  </h2>
+                <p class="card-text">Stay a step ahead with powerful apps for productivity, connection and security.</p>
+                <a href="">Shop now ></a>
+
+              </div>
+            </div>
+           </div>
+           <div class="col-lg-3">
+            <div class="card" style="width: 30rem;">
+              <img class="card-img-top" src="busines-card4.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h2>Resilience at work
+                  </h2>
+                <p class="card-text">Keep your team connected, wherever they are, with Microsoft Teams.</p>
+                <a href="">Learn More ></a>
+
+              </div>
+            </div>
+           </div>
+       
+         </div>
+
+        </div>
+      </div>
+
+      <div class="textcenter">
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="jumbotron">
+              <div class="container">
+                <h2 class="">Microsoft’s response to COVID-19</h2>
+                <p class="lead">Read how we’re responding to the COVID-19 outbreak, and get resources to help.</p>
+                <a href="">Learn More</a>
+              </div>
+            </div>
           </div>
 
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              All Microsoft
-            </button>
-      
+        </div>
+
+      </div>
+
+
+
+      <div class="social">
+
+        <div class="container-fluid">
+          <div class="row">
+
+              <div class="space"></div>
+              <h3>Follow Microsoft</h3>
+              <div class="col">
+                <div class="social-content">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-youtube"></a>
+                </div>
+              </div>
+           
           </div>
-<div class="righticon">
-          <li class="fa fa-search">
-            <!-- <i class="fi-magnifying-glass"></i> -->
-            <!-- <i class="ionicons ion-ios-search"></i> -->
-            
-          <!-- </li> -->
-          <li class="fa fa-cart-plus">
-            
-          </li>
-          <li class="fa fa-user">
-            
-          </li>
+        
+        </div>
+      </div>
+
+
+      <div class="footer">
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="con_one">
+              <h4>What's new</h4>
+              <ul>
+                <li><a href="">Microsoft 365</a></li>
+                <li><a href="">Surface Pro X</a></li>
+                <li><a href="">Surface Pro 7</a></li>
+                <li><a href="">Surface Laptop 3</a></li>
+                <li><a href="">Windows 10 apps</a></li>
+              </ul>
+            </div>
+
+            <div class="con_one">
+              <h4>What's new</h4>
+              <ul>
+                <li><a href="">Account profile</a></li>
+                <li><a href="">Download Center</a></li>
+                <li><a href="">Microsoft Store Support</a></li>
+                <li><a href="">Returns</a></li>
+                <li><a href="">Order tracking</a></li>
+              </ul>
+            </div>
+
+            <div class="con_one">
+              <h4>What's new</h4>
+              <ul>
+                <li><a href="">Microsoft 365</a></li>
+                <li><a href="">Surface Pro X</a></li>
+                <li><a href="">Surface Pro 7</a></li>
+                <li><a href="">Surface Laptop 3</a></li>
+                <li><a href="">Windows 10 apps</a></li>
+              </ul>
+            </div>
+
+            <div class="con_one">
+              <h4>What's new</h4>
+              <ul>
+                <li><a href="">Microsoft 365</a></li>
+                <li><a href="">Surface Pro X</a></li>
+                <li><a href="">Surface Pro 7</a></li>
+                <li><a href="">Surface Laptop 3</a></li>
+                <li><a href="">Windows 10 apps</a></li>
+              </ul>
+            </div>
+
+            <div class="con_one">
+              <h4>What's new</h4>
+              <ul>
+                <li><a href="">Microsoft 365</a></li>
+                <li><a href="">Surface Pro X</a></li>
+                <li><a href="">Surface Pro 7</a></li>
+                <li><a href="">Surface Laptop 3</a></li>
+                <li><a href="">Windows 10 apps</a></li>
+              </ul>
+            </div>
+
+            <div class="con_one">
+              <h4>What's new</h4>
+              <ul>
+                <li><a href="">Microsoft 365</a></li>
+                <li><a href="">Surface Pro X</a></li>
+                <li><a href="">Surface Pro 7</a></li>
+                <li><a href="">Surface Laptop 3</a></li>
+                <li><a href="">Windows 10 apps</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      
+
 </div>
 
-        </nav>
-      <!-- </div> -->
+ 
 
 
-
-        <div class="banner px-2">
-
-              
-              <div class="  mt-3">
-                
-              
-                
-                <!-- The carousel -->
-                <div id="myCarousel" class="carousel slide mt-4" data-interval="500">
-                
-                <!-- Indicators -->
-                <ul class="carousel-indicators">
-                  <li class="item1 active"></li>
-                  <li class="item2"></li>
-                  <li class="item3"></li>
-                </ul>
-                
-                <!-- The slideshow -->
-                <div class="carousel-inner">
-
-                  <div class="carousel-item active">
-                    <img src="slider-img1.jpg" alt="Los Angeles" width="1100" height="500">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="slider-img2.jpg" alt="Chicago" width="1100" height="500">
-                  </div>
-                  <!-- <div class="carousel-item">
-                    <img src="static.jpg" alt="New York" width="1100" height="500">
-                  </div> -->
-                 
-                </div>
-                <div class="playnpause">
-
-                <button type="button" id="myBtn" class="fa fa-play"></button>
-                <button type="button" id="myBtn2" class="fa fa-pause"></button>
-
-              </div>
-
-                <!-- Left and right controls -->
-                <a class="carousel-control-prev" href="#myCarousel">
-                  <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#myCarousel">
-                  <span class="carousel-control-next-icon"></span>
-                </a>
-              </div>
-              </div>
-        </div>
-
-        <div class="bottom-banner" >
-                
-          <!-- Indicators -->
-          <ul class="bottom-banner-ul">
-            <a class="one"><img src="small-img1.png" alt=""> <p>Choose your Microsoft 365</p></a>
-            <a class="two"><img src="small-img2.png" alt=""><p>Explore Surface devices</p></a>
-            <a class="three"><img src="small-img4.png" alt=""><p>Buy Xbox games</p></a>
-            <a class="three"><img src="small-img3.png" alt=""><p>Shop for Windows 10</p></a>
-
-          </ul>
-
-        </div>
+    
 
 
-        <div class="advertising-card">
-
-          <div class="card-one">
-            <img src="advertising-card1.jpg" alt="">
-            <h5>Surface Laptop Go</h5>
-            <p>Make the most of every day with the sleek style and performance of our lightest Surface laptop.</p>
-            <a href="">Shop now ></a>
+         <!-- <div class="card" style="width:400px">
+          <img class="card-img-top" src="banner-img.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
           </div>
-          <div class="card-one">
-            <img src="advertising-card2.jpg" alt="">
-            <h5>Microsoft 365</h5>
-            <p>Premium Office apps, extra cloud storage, advanced security, and more – all in one convenient subscription.</p>
-            <a href="">Shop now ></a>
-          </div>
-          <div class="card-one">
-            <img src="advertising-card3.jpg" alt="">
-            <h5>Xbox Game Pass Ultimate</h5>
-            <p>Xbox Live Gold and over 100 high-quality console and PC games. Play together with friends and discover your next favourite game.</p>
-            <a href="">Shop now ></a>
-          </div>
-          <div class="card-one">
-            <img src="advertising-card4.jpg" alt="">
-            <h5>Microsoft Edge</h5>
-            <p>World-class performance with more privacy, more productivity and more value while you browse.</p>
-            <a href="">Shop now ></a>
-          </div>
-          
-        </div>
+        </div> -->
+
+       
+
+</div>
 
 
-
-    <script>
-      $(document).ready(function(){
-        // Activate the Carousel, but pause it from the start
-        $("#myCarousel").carousel("pause");
-              
-        // Click on the button to start sliding 
-        $("#myBtn").click(function(){
-          $("#myCarousel").carousel("cycle");
-        });
-      
-        // Click on the button to stop sliding 
-        $("#myBtn2").click(function(){
-          $("#myCarousel").carousel("pause");
-        });
-          
-        // Enable Carousel Indicators
-        $(".item1").click(function(){
-          $("#myCarousel").carousel(0);
-        });
-        $(".item2").click(function(){
-          $("#myCarousel").carousel(1);
-        });
-        $(".item3").click(function(){
-          $("#myCarousel").carousel(2);
-        });
-          
-        // Enable Carousel Controls
-        $(".carousel-control-prev").click(function(){
-          $("#myCarousel").carousel("prev");
-        });
-        $(".carousel-control-next").click(function(){
-          $("#myCarousel").carousel("next");
-        });
+  <script>
+    $(document).ready(function(){
+      // Activate the Carousel, but pause it from the start
+      $("#myCarousel").carousel("pause");
+            
+      // Click on the button to start sliding 
+      $("#myBtn").click(function(){
+        $("#myCarousel").carousel("cycle");
       });
-      </script>
+    
+      // Click on the button to stop sliding 
+      $("#myBtn2").click(function(){
+        $("#myCarousel").carousel("pause");
+      });
+        
+      // Enable Carousel Indicators
+      $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+      });
+      $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+      });
+      $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+      });
+        
+      // Enable Carousel Controls
+      $(".carousel-control-prev").click(function(){
+        $("#myCarousel").carousel("prev");
+      });
+      $(".carousel-control-next").click(function(){
+        $("#myCarousel").carousel("next");
+      });
+    });
+    </script>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
-    <!-- bs- 4 -->
+  <!-- bs- 4 -->
 
-    <!-- jQuery library -->
+  <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <!-- Popper JS -->
@@ -357,7 +723,7 @@ background-image: url('slider-img2.jpg');
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body> 
+</body> 
 </html>
 
 
